@@ -5,6 +5,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "start1": "node main.js",
+    "dev1": "nodemon main.js",
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,9 +27,11 @@
   },
   "homepage": "https://github.com/Oleg833/goit-node-tr1#readme",
   "devDependencies": {
+    "eslint": "^8.43.0",
     "nodemon": "^2.0.22"
   },
   "dependencies": {
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "nanoid": "^3.0.0"
   }
 }
