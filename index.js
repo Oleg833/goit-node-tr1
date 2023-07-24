@@ -85,8 +85,8 @@ const invokeAction = async ({ action, id, title, author }) => {
       break;
 
     default:
-      console.log("Unknown action");
-      console.warn("\x1B[31m Unknown action type!");
+      console.log("Enter parametr, Unknown action");
+      console.warn("\x1B[31m Enter parametr, Unknown action type!");
       break;
   }
 };
